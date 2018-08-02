@@ -29,4 +29,9 @@
     <string name="title_activity_buyer">Buyer</string>
     <string name="title_activity_signup">Sign up</string>
     <string name="title_activity_maps">Trash bins locations</string>
+    <string name="points">Points</string>
+    <string name="add_points">add points</string>
+    <string name="replace">Replace</string>
+    <string name="about_us">about us</string>
+    <string name="support">Support</string>
 </resources>
