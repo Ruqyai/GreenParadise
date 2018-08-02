@@ -6,69 +6,107 @@
     android:layout_height="match_parent"
     android:layout_margin="10dp"
     tools:context="com.green.www.greenparadise.MainActivity">
+
     <GridLayout
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:columnCount="2"
+
         >
+
+<ImageButton
+    android:background="@drawable/rewardr"/>
+
+        <ImageButton
+            android:background=""/>
 
         <TextView
 
             android:layout_width="0dp"
-            android:layout_height="150dp"
+            android:layout_height="50dp"
             android:layout_columnWeight="1"
-            android:gravity="center"
             android:layout_gravity="fill_horizontal"
-            android:background="@color/colorAccent"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
             android:text="@string/points"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginLeft="1dp"
             />
 
         <TextView
             android:layout_width="0dp"
-            android:layout_height="150dp"
+            android:layout_height="50dp"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+
+            android:layout_gravity="fill_horizontal"
+            android:background="@color/colorPrimary"
+            android:text="180"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginLeft="1dp"/>
+        <ImageButton
+            android:background="@drawable/addpoint"/>
+        <ImageButton
+            android:background="@drawable/support"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
             android:layout_columnWeight="1"
             android:gravity="center"
             android:layout_gravity="fill_horizontal"
-            android:background="@color/colorBackground"
-            android:text="180" />
+            android:background="@color/colorPrimary"
+            android:text="@string/add_points"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginLeft="1dp"/>
 
         <TextView
             android:layout_width="0dp"
-            android:layout_height="150dp"
+            android:layout_height="50dp"
             android:layout_columnWeight="1"
             android:gravity="center"
             android:layout_gravity="fill_horizontal"
-            android:background="@color/colorBackground"
-            android:text="@string/add_points" />
+            android:background="@color/colorPrimary"
+            android:text="@string/replace"
+            android:textAppearance="@style/TextAppearance.AppCompat"/>
+        <ImageButton
+            android:background="@drawable/support2"/>
+        <ImageButton
+            android:background="@drawable/about1"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:layout_gravity="fill_horizontal"
+            android:background="@color/colorPrimary"
+            android:text="@string/support"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginLeft="1dp"/>
 
         <TextView
             android:layout_width="0dp"
-            android:layout_height="150dp"
+            android:layout_height="50dp"
             android:layout_columnWeight="1"
             android:gravity="center"
             android:layout_gravity="fill_horizontal"
-            android:background="@color/colorAccent"
-            android:text="@string/replace" />
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="150dp"
-            android:layout_columnWeight="1"
-            android:gravity="center"
-            android:layout_gravity="fill_horizontal"
-            android:background="@color/colorAccent"
-            android:text="@string/support" />
-
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="150dp"
-            android:layout_columnWeight="1"
-            android:gravity="center"
-            android:layout_gravity="fill_horizontal"
-            android:background="@color/colorBackground"
-            android:text="@string/about_us" />
+            android:background="@color/colorPrimary"
+            android:text="@string/about_us"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginLeft="1dp"/>
 
     </GridLayout>
-   
+
 
 </android.support.constraint.ConstraintLayout>
