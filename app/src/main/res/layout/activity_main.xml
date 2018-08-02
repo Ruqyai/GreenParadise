@@ -4,119 +4,71 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="10dp"
     tools:context="com.green.www.greenparadise.MainActivity">
-
-    <LinearLayout
+    <GridLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:weightSum="2"
-        android:layout_marginTop="10dp">
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:columnCount="2"
+        >
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_gravity="center"
-            android:weightSum="2">
+        <TextView
 
-            <android.support.v7.widget.CardView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="5dp"
-                android:layout_margin="2dp"
-                android:background="@color/colorAccent">
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:layout_gravity="fill_horizontal"
+            android:background="@color/colorAccent"
+            android:text="@string/points"
+            />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:text="@string/points"
-                    android:id="@+id/points"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:layout_gravity="fill_horizontal"
+            android:background="@color/colorBackground"
+            android:text="180" />
 
-            </android.support.v7.widget.CardView>
-            <android.support.v7.widget.CardView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@color/colorAccent"
-                android:layout_margin="2dp"
-                android:padding="5dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:layout_gravity="fill_horizontal"
+            android:background="@color/colorBackground"
+            android:text="@string/add_points" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:text="@string/add_points"
-                    android:id="@+id/add_points"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:layout_gravity="fill_horizontal"
+            android:background="@color/colorAccent"
+            android:text="@string/replace" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:layout_gravity="fill_horizontal"
+            android:background="@color/colorAccent"
+            android:text="@string/support" />
 
-            </android.support.v7.widget.CardView>
-        </LinearLayout>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:layout_gravity="fill_horizontal"
+            android:background="@color/colorBackground"
+            android:text="@string/about_us" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_gravity="center"
-            android:weightSum="2">
-
-            <android.support.v7.widget.CardView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@color/colorAccent"
-                android:layout_margin="2dp"
-                android:padding="5dp">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:text="@string/replace"
-                    android:id="@+id/replace"/>
-
-            </android.support.v7.widget.CardView>
-
-            <android.support.v7.widget.CardView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@color/colorAccent"
-                android:layout_margin="2dp"
-                android:padding="5dp">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:text="@string/support"
-                    android:id="@+id/support"/>
-
-            </android.support.v7.widget.CardView>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_gravity="center"
-            android:weightSum="2">
-
-
-
-            <android.support.v7.widget.CardView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@color/colorAccent"
-                android:layout_margin="2dp"
-                android:padding="5dp">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:text="@string/about_us"
-                    android:id="@+id/about_us"/>
-
-            </android.support.v7.widget.CardView>
-        </LinearLayout>
-    </LinearLayout>
+    </GridLayout>
+   
 
 </android.support.constraint.ConstraintLayout>
