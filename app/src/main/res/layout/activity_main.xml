@@ -11,16 +11,10 @@
 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
+
         android:columnCount="2"
 
         >
-
-<ImageButton
-    android:background="@drawable/rewardr"/>
-
-        <ImageButton
-            android:background=""/>
 
         <TextView
 
@@ -28,13 +22,37 @@
             android:layout_height="50dp"
             android:layout_columnWeight="1"
             android:layout_gravity="fill_horizontal"
-            android:background="@color/colorPrimary"
+            android:background="#fff"
+            android:gravity="center"
+            android:text="welcome                       & "
+            android:textAppearance="@style/TextAppearance.AppCompat"
+
+            />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+
+            android:layout_gravity="fill_horizontal"
+            android:background="#fff"
+            android:text="concratulation "
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            />
+
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:background="@color/colorAccent"
             android:gravity="center"
             android:text="@string/points"
             android:textAppearance="@style/TextAppearance.AppCompat"
-            android:layout_marginTop="2dp"
-            android:layout_marginRight="1dp"
-            android:layout_marginLeft="1dp"
+
             />
 
         <TextView
@@ -44,28 +62,24 @@
             android:gravity="center"
 
             android:layout_gravity="fill_horizontal"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorAccent"
             android:text="180"
             android:textAppearance="@style/TextAppearance.AppCompat"
-            android:layout_marginTop="2dp"
-            android:layout_marginRight="1dp"
-            android:layout_marginLeft="1dp"/>
+            />
         <ImageButton
             android:background="@drawable/addpoint"/>
         <ImageButton
-            android:background="@drawable/support"/>
+            android:background="@drawable/rewardr"/>
         <TextView
             android:layout_width="0dp"
             android:layout_height="50dp"
             android:layout_columnWeight="1"
             android:gravity="center"
             android:layout_gravity="fill_horizontal"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorAccent"
             android:text="@string/add_points"
             android:textAppearance="@style/TextAppearance.AppCompat"
-            android:layout_marginTop="2dp"
-            android:layout_marginRight="1dp"
-            android:layout_marginLeft="1dp"/>
+            />
 
         <TextView
             android:layout_width="0dp"
@@ -73,11 +87,11 @@
             android:layout_columnWeight="1"
             android:gravity="center"
             android:layout_gravity="fill_horizontal"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorAccent"
             android:text="@string/replace"
             android:textAppearance="@style/TextAppearance.AppCompat"/>
         <ImageButton
-            android:background="@drawable/support2"/>
+            android:background="@drawable/support"/>
         <ImageButton
             android:background="@drawable/about1"/>
         <TextView
@@ -86,12 +100,10 @@
             android:layout_columnWeight="1"
             android:gravity="center"
             android:layout_gravity="fill_horizontal"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorAccent"
             android:text="@string/support"
             android:textAppearance="@style/TextAppearance.AppCompat"
-            android:layout_marginTop="2dp"
-            android:layout_marginRight="1dp"
-            android:layout_marginLeft="1dp"/>
+            />
 
         <TextView
             android:layout_width="0dp"
@@ -99,14 +111,11 @@
             android:layout_columnWeight="1"
             android:gravity="center"
             android:layout_gravity="fill_horizontal"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorAccent"
             android:text="@string/about_us"
             android:textAppearance="@style/TextAppearance.AppCompat"
-            android:layout_marginTop="2dp"
-            android:layout_marginRight="1dp"
-            android:layout_marginLeft="1dp"/>
+            />
 
-    </GridLayout>
-
+    </
 
 </android.support.constraint.ConstraintLayout>

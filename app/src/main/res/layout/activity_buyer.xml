@@ -10,7 +10,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.green.www.greenparadise.BuyerActivity">
 
-    <!-- Login progress
+   Login progress
     <ProgressBar
         android:id="@+id/login_progress"
         style="?android:attr/progressBarStyleLarge"
@@ -29,6 +29,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tell us "
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/replace"/>
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -45,6 +51,12 @@
                 android:layout_marginTop="50dp">
 
             </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="your contant informatin "
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/replac4e"/>
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -89,5 +101,5 @@
                 android:textStyle="bold" />
 
         </LinearLayout>
-    </ScrollView> -->
+    </ScrollView>
     </LinearLayout>
